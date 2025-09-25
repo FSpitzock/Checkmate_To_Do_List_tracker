@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Checkmate</title>
 </head>
 <body  class="bg-slate-100">
 <header   class="bg-slate-500 text-white p-4">
@@ -26,10 +26,22 @@
     </aside>
 
     <main>
-        <h2>New/Current List</h2>
+
+    <form id="myForm" action="/submit-data"  method="post">
+        <label for="listName"><h2>New/Current List</h2></label>
+    
+    <input type="text" id="userInput" placeholder="Enter New List">
+    <br>
+    <button class="bg-sky-500 hover:bg-sky-700 ..." id="displayButton">Add New List</button>
+    <br>
+    <p id="outputDisplay"></p>
+    </form>
+
+
+
     </main>
 </div>
 
-<script src="assets/js/main.js"></script>
+<script src="./assets/js/main.js"></script>
 </body>
 </html>
