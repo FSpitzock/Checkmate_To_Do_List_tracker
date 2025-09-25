@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS link goes here -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
-<body>
-<p> generic text </p>
+<body  class="bg-slate-100">
+<header   class="bg-slate-500 text-white p-4">
+    <h1>Checkmate To Do List Tracker</h1>
+</header>
 
-<p> generic text </p>
-<p> generic text </p>
-<p> generic text </p>
+<div class="grid grid-cols-[200px_1fr] gap-4 p-4">
+    <aside class="bg-slate-200 p-4 rounded">
+        <h2 class="text-xl font-bold ">Lists:</h2>
+        <hr>
+        <ul>
+            <li class="hover:bg-red-300 p-1 m-1">List 1</li>
+            <li class="hover:bg-red-300 p-1 m-1">List 2</li>
+            <li class="hover:bg-red-300 p-1 m-1">List 3</li>
+            <li class="hover:bg-red-300 p-1 m-1">List 4</li>
+            <li class="hover:bg-red-300 p-1 m-1">List 5</li>
+        </ul>
+    </aside>
 
- <!-- JS link goes here -->   
+    <main>
+        <h2>New/Current List</h2>
+    </main>
+</div>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
