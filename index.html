@@ -16,12 +16,9 @@
     <aside class="bg-slate-200 p-4 rounded">
         <h2 class="text-xl font-bold ">Lists:</h2>
         <hr>
-        <ul>
-            <li class="hover:bg-red-300 p-1 m-1">List 1</li>
-            <li class="hover:bg-red-300 p-1 m-1">List 2</li>
-            <li class="hover:bg-red-300 p-1 m-1">List 3</li>
-            <li class="hover:bg-red-300 p-1 m-1">List 4</li>
-            <li class="hover:bg-red-300 p-1 m-1">List 5</li>
+        <ul id="myList">
+            <li class="hover:bg-red-300 p-1 m-1"></li>
+ 
         </ul>
     </aside>
 
@@ -32,7 +29,7 @@
     
     <input type="text" id="userInput" placeholder="Enter New List">
     <br>
-    <button class="bg-sky-500 hover:bg-sky-700 ..." id="displayButton">Add New List</button>
+    <button class="bg-sky-500 hover:bg-sky-700 ..." id="addButton" onclick="addTask()">Add New List</button>
     <br>
     <p id="outputDisplay"></p>
     </form>
