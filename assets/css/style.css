@@ -18,10 +18,24 @@ input{
 ol li{
   margin: 10px;
   padding: 10px;
+  Background-color: lightgray;
+    border-radius: 10px;
 }
 ol li:hover{
     background-color: darkgray;
     border-radius: 10px;
+}
+
+ul {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    margin-bottom: 10px;
 }
 
 span {
