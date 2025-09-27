@@ -20,5 +20,16 @@ ol li{
   padding: 10px;
 }
 ol li:hover{
-    background-color: lightgray;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+span {
+    color: grey;
+   padding: 3px;
+    margin: 3px;
+}
+
+span:hover {
+    color: red;
 }

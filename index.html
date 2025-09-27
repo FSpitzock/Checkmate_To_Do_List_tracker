@@ -20,21 +20,21 @@
         <input id="userInput" class="border-4 border-blue-100" type="text" placeholder="List Name">
         <button onclick="addTask()" class="bg-blue-300 text-white px-3 py-1 rounded hover:bg-indigo-500">+</button>
 
-        <ol id="myList"></ol>
+        <ol id="myList">
+            <li></li>
+        </ol>
     </div>
 
     <!--Main list content-->
 
     <main class="w-2/3 pl-6 flex flex-col justify-between ">
         <h3 class="text-lg font-semibold mb-4">Selected List</h3>
-            <ul id="selectedList"></ul>
+        <ul id="selectedList" class="flex-1"></ul>
 
         <div class="buttons">
             <button class="bg-blue-300 text-white px-3 py-1 rounded hover:bg-indigo-500">Save</button>
             <button class="bg-blue-300 text-white px-3 py-1 rounded hover:bg-indigo-500">Delete</button>
         </div>
-
-
     </main>
 </div>
 
