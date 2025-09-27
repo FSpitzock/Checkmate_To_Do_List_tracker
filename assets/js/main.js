@@ -11,7 +11,7 @@ function addTask() {
                 myList.appendChild(li);
                 let span = document.createElement("span");
                 span.innerHTML = "\u00d7";
-                li.appendChild(span);
+                li.addEventListener("click", );
         }
         userInput.value = "";
         saveData();
