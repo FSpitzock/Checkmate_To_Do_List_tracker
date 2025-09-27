@@ -13,7 +13,7 @@ function addTask() {
                 let span = document.createElement("span");
                 span.innerHTML = "\u00d7";
                 li.addEventListener('click', (e) => {
-                selectedList.appendChild(li);
+                selectedList.innerHTML=li.textContent;
                 console.log('You clicked on a list', li.textContent);
                 console.log(e.target.tagName)
         })
