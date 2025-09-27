@@ -2,7 +2,7 @@ const userInput = document.getElementById("userInput");
 const myList = document.getElementById("myList");
 const selectedList = document.getElementById("selectedList")
 
-function addTask() {
+    function addTask() {
         if(userInput.value === '') {
                 alert ("Enter a list!");
         }
