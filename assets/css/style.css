@@ -1,0 +1,21 @@
+
+.buttons{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  gap: 8px;
+}
+
+label{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+input{
+  margin-left: 10px;
+}
+
+ol li{
+  margin: 10px;
+  padding: 10px;
+}
