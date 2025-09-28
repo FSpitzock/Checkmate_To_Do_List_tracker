@@ -30,6 +30,13 @@
     <main class="w-2/3 pl-6 flex flex-col justify-between ">
         <h3 class="text-lg font-semibold mb-4">Selected List</h3>
         <ul id="selectedList" class="flex-1"></ul>
+              <li id="selectedListItems" class="flex-1"></li>
+        
+        <label for="taskInput" class="block text-sm font-bold mb-2">Add An Item To Your List!</label>
+        <input id="taskInput" class="border-4 border-blue-100" type="text" placeholder="Add items to your list">
+        <button onclick="addItem()" id="addItem" class="bg-blue-300 text-white px-3 py-1 rounded hover:bg-indigo-500">Add Item</button>
+      
+
 
         <div class="buttons">
             <button class="bg-blue-300 text-white px-3 py-1 rounded hover:bg-indigo-500">Save</button>
